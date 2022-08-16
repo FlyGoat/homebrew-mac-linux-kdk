@@ -7,6 +7,7 @@ class MacLinuxKdk < Formula
   sha256 "708ebefe491c8c751c50be7cce323ab1fa5c53ca9aba9a735b69a00ce47d802d"
   license "LGPL-3.0-or-later" => { with: "LGPL-3.0-linking-exception" }
 
+  depends_on "bash"
   depends_on "coreutils"
   depends_on "file-formula"
   depends_on "findutils"
